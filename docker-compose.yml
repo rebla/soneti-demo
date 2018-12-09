@@ -1,7 +1,7 @@
 version: '2'
 services:
   gsicrawler:
-    image: gsiupm/gsicrawler
+    image: rebla/gsicrawler
     ports:
      - "5555:5555"
      - "5000:5000"
@@ -47,7 +47,7 @@ services:
       - soneti
 
   senpy:
-    image: gsiupm/senpy
+    image: gsiupm/senpy:0.10.8
     command: --default-plugins
     ports:
      - "8000:5000"

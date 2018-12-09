@@ -47,7 +47,8 @@
   "resolutions": {
     "webcomponentsjs": "0.7.24",
     "elastic.js": "^1.2.0",
-    "polymer":"1.7.0"
+    "polymer":"1.7.0",
+    "leaflet": "^1.0.3"
   },
   "license": "Apache-2.0",
   "homepage": "https://lab.cluster.gsi.dit.upm.es/sefarad/dashboard-somedi"
